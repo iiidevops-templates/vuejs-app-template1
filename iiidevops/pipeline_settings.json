@@ -1,6 +1,6 @@
 {
-  "name": "Vue.js - Simple web",
-  "description": "nodejs 11 / apache 2.4 <a class='el-link el-link--primary' href='https://github.com/iiidevops-templates/vuejs-app-template2/blob/master/README.md' target='_blank'>simple web範本說明</a>",
+  "name": "Vue.js - UI Template",
+  "description": "nodejs 12 / nginx 1.19 <a class='el-link el-link--primary' href='https://github.com/iiidevops-templates/vuejs-app-template1/blob/master/README.md' target='_blank'>simple web範本說明</a>",
   "arguments": [
   ]
 }
