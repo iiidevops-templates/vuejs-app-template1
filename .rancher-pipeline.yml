@@ -62,6 +62,7 @@ stages:
       - master
 
 - name: Build--Build and push docker image
+  iiidevops: build-run-env
   steps:
   - env:
       PLUGIN_BUILD_ARGS: --progress=tty --network=host
@@ -81,6 +82,7 @@ stages:
       - master
 
 - name: Deploy--Web
+  iiidevops: build-run-env
   steps:
   - applyAppConfig:
       answers:
@@ -103,6 +105,7 @@ stages:
       - master
 
 - name: Deploy--Wait Web deployment
+  iiidevops: build-run-env
   steps:
   - env:
       deploy_name: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-serv
