@@ -38,6 +38,7 @@ stages:
       - develop
 
 - name: Deploy--Set Web environment variables
+  iiidevops: build-run-env
   steps:
   - envFrom:
     - sourceKey: API_TOKEN
